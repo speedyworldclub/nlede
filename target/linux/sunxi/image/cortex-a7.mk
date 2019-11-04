@@ -236,3 +236,4 @@ endef
 TARGET_DEVICES += sun7i-a20-pcduino3
 
 endif
+
