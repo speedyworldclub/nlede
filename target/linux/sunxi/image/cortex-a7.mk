@@ -159,6 +159,24 @@ endef
 TARGET_DEVICES += sun8i-h3-nanopi-neo
 
 
+define Device/sun8i-h3-nanopi-duo2
+  DEVICE_TITLE:=FriendlyARM NanoPi Duo2
+  SUPPORTED_DEVICES:=friendlyarm,nanopi-duo2
+  SUNXI_DTS:=sun8i-h3-nanopi-duo2
+endef
+
+TARGET_DEVICES += sun8i-h3-nanopi-duo2
+
+
+define Device/sun8i-h3-nanopi-r1
+  DEVICE_TITLE:=FriendlyARM NanoPi R1
+  SUPPORTED_DEVICES:=friendlyarm,nanopi-r1
+  SUNXI_DTS:=sun8i-h3-nanopi-r1
+endef
+
+TARGET_DEVICES += sun8i-h3-nanopi-r1
+
+
 define Device/sun8i-h3-orangepi-one
   DEVICE_TITLE:=Xunlong Orange Pi One
   DEVICE_PACKAGES:=kmod-rtc-sunxi
