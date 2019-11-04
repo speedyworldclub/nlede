@@ -1,15 +1,16 @@
 diff --git a/arch/arm/dts/Makefile b/arch/arm/dts/Makefile
 index d17045a..9e1be8b 100644
---- a/arch/arm/dts/Makefile
-+++ b/arch/arm/dts/Makefile
-@@ -446,5 +446,7 @@ dtb-$(CONFIG_MACH_SUN8I_H3) += \
+--- a/arch/arm/dts/Makefile	2019-10-25 18:21:48.568442000 +0800
++++ a/arch/arm/dts/Makefile_old	2019-11-05 00:14:28.901135700 +0800
+@@ -331,6 +331,8 @@
  	sun8i-h3-nanopi-m1-plus.dtb \
  	sun8i-h3-nanopi-neo.dtb \
  	sun8i-h3-nanopi-neo-air.dtb \
-+	sun8i-h3-nanopi-r1.dtb \
 +	sun8i-h3-nanopi-duo2.dtb \
- 	sun8i-h3-orangepi-2.dtb \
- 	sun8i-h3-orangepi-lite.dtb \
++	sun8i-h3-nanopi-r1.dtb \
+ 	sun8i-h3-nanopi-m1-plus.dtb
+  dtb-$(CONFIG_MACH_SUN8I_R40) += \
+ 	sun8i-r40-bananapi-m2-ultra.dtb
 diff --git a/arch/arm/dts/sun8i-h3-nanopi-r1.dts b/arch/arm/dts/sun8i-h3-nanopi-r1.dts
 new file mode 100644
 index 0000000..9f33f6f
