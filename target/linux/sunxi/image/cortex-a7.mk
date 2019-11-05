@@ -165,11 +165,11 @@ define Device/sun8i-h3-nanopi-duo2
   DEVICE_PACKAGES:=ar3k-firmware ath6k-firmware \
   	ath9k-htc-firmware brcmfmac-firmware-43430-sdio \
 	brcmfmac-firmware-usb carl9170-firmware \
-#	collectd collectd-mod-cpu \
-#	collectd-mod-interface collectd-mod-iwinfo \ 
-#  	collectd-mod-load collectd-mod-memory \
-#	collectd-mod-network collectd-mod-rrdtool \
-#	collectd-mod-thermal collectd-mod-uptime \
+	collectd collectd-mod-cpu \
+	collectd-mod-interface collectd-mod-iwinfo \ 
+  	collectd-mod-load collectd-mod-memory \
+	collectd-mod-network collectd-mod-rrdtool \
+	collectd-mod-thermal collectd-mod-uptime \
 #	collectd-mod-wireless edgeport-firmware \
 #	hostapd-common iperf iw \
 #	iwinfo kmod-brcmfmac kmod-brcmutil \
