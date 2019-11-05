@@ -7,13 +7,6 @@
 
 board_config_update
 
-#json_is_a network object && exit 0
-
-#ucidef_set_interface_lan 'eth0'
-#[ -d /sys/class/net/eth1 ] && ucidef_set_interface_wan 'eth1'
-
-#board_config_flush
-
 case "$(board_name)" in
 "olimex,a20-olinuxino-micro")
 	ucidef_set_interface_lan 'wlan0'
@@ -46,8 +39,7 @@ case "$(board_name)" in
 |"friendlyelec,zeropi")
 	ucidef_set_interface_wan "eth0"
 	;;
-"friendlyelec,nanopi-neo-air" \
-"olimex,a20-olinuxino-micro")
+"friendlyelec,nanopi-neo-air")
 	ucidef_set_interface_lan "wlan0"
 	;;
 "friendlyelec,nanopi-neo-core")
