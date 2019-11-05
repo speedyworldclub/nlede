@@ -1,16 +1,12 @@
+
 diff --git a/arch/arm/dts/Makefile b/arch/arm/dts/Makefile
-index d17045a..9e1be8b 100644
---- a/arch/arm/dts/Makefile	2019-10-25 18:21:48.568442000 +0800
-+++ a/arch/arm/dts/Makefile	2019-11-05 00:14:28.901135700 +0800
-@@ -331,6 +331,8 @@
- 	sun8i-h3-nanopi-m1-plus.dtb \
+--- a/arch/arm/dts/Makefile	2019-11-05 02:12:02.183543000 +0800
++++ a/arch/arm/dts/Makefile	2019-11-05 10:48:17.483563700 +0800
+@@ -365,2 +365,4 @@
  	sun8i-h3-nanopi-neo.dtb \
- 	sun8i-h3-nanopi-neo-air.dtb \
 +	sun8i-h3-nanopi-duo2.dtb \
 +	sun8i-h3-nanopi-r1.dtb \
- 	sun8i-h3-nanopi-m1-plus.dtb
-  dtb-$(CONFIG_MACH_SUN8I_R40) += \
- 	sun8i-r40-bananapi-m2-ultra.dtb
+ 	sun8i-h3-nanopi-neo-air.dtb
 diff --git a/arch/arm/dts/sun8i-h3-nanopi-r1.dts b/arch/arm/dts/sun8i-h3-nanopi-r1.dts
 new file mode 100644
 index 0000000..9f33f6f
@@ -260,7 +256,7 @@ index 0000000..b6afe20
 +
 +&mmc0 {
 +	pinctrl-names = "default";
-+	pinctrl-0 = <&mmc0_pins>;
++	pinctrl-0 = <&mmc0_pins_a>;
 +	vmmc-supply = <&reg_vcc3v3>;
 +	bus-width = <4>;
 +	cd-gpios = <&pio 5 6 GPIO_ACTIVE_HIGH>; /* PF6 */
