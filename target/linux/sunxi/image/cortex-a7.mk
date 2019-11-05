@@ -162,6 +162,7 @@ TARGET_DEVICES += sun8i-h3-nanopi-neo
 define Device/sun8i-h3-nanopi-duo2
   DEVICE_TITLE:=FriendlyARM NanoPi Duo2
   SUPPORTED_DEVICES:=friendlyarm,nanopi-duo2
+  DEVICE_PACKAGES:=kmod-sun4i-emac kmod-rtc-sunxi kmod-ata-core kmod-ata-sunxi kmod-rtl8xxxu rtl8188eu-firmware
   SUNXI_DTS:=sun8i-h3-nanopi-duo2
 endef
 
