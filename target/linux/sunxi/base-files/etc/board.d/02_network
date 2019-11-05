@@ -39,8 +39,7 @@ case "$(board_name)" in
 |"friendlyelec,zeropi")
 	ucidef_set_interface_wan "eth0"
 	;;
-"friendlyelec,nanopi-neo-air" \
-"olimex,a20-olinuxino-micro")
+"friendlyelec,nanopi-neo-air")
 	ucidef_set_interface_lan "wlan0"
 	;;
 "friendlyelec,nanopi-neo-core")
