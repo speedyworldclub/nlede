@@ -167,9 +167,9 @@ define Device/sun8i-h3-nanopi-duo2
 	brcmfmac-firmware-usb carl9170-firmware \
 	collectd collectd-mod-cpu \
 	collectd-mod-interface collectd-mod-iwinfo \ 
-  	collectd-mod-load collectd-mod-memory \
-	collectd-mod-network collectd-mod-rrdtool \
-	collectd-mod-thermal collectd-mod-uptime \
+#  	collectd-mod-load collectd-mod-memory \
+#	collectd-mod-network collectd-mod-rrdtool \
+#	collectd-mod-thermal collectd-mod-uptime \
 #	collectd-mod-wireless edgeport-firmware \
 #	hostapd-common iperf iw \
 #	iwinfo kmod-brcmfmac kmod-brcmutil \
